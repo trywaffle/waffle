@@ -2,6 +2,30 @@
   Primary Styles
 =============================*/
 
+body {
+  font-family: "Inconsolata", monospace;
+  color: #606060;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  background: #17b695;
+  border-color: #17b695;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background: #19c8a3;
+  border-color: #19c8a3;
+}
+
 [m-mask] {
   display: none;
 }

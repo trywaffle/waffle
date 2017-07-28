@@ -13,7 +13,7 @@ if(!fs.existsSync(builtCSSPath)) {
 
 // Get all css files
 const cssDir = path.join(process.cwd(), "css");
-const cssFiles = fs.readdirSync(cssDir);
+const cssFiles = fs.readdirSync(cssDir).reverse();
 let css = "";
 
 // Concat all files into one big css file
