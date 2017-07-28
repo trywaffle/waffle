@@ -1,7 +1,7 @@
 <template>
   <div class="full-screen container center text-center">
     <router-link to="/"><h1>waffle</h1></router-link>
-    <p>the simplest way to showcase your community</p>
+    <p>the simplest way to leverage your community</p>
     <iframe src="https://www.youtube.com/embed/TAtB8fupP3w" frameborder="0" allowfullscreen id="video"></iframe>
     <button href="https://feathrd.typeform.com/to/mGMMXR" class="typeform-share" data-mode="popup">create yours</button>
   </div>
