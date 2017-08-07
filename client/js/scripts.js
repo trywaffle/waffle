@@ -2,13 +2,13 @@
   Primary Application Code
 =============================*/
 
-var Moon = require("moonjs");
-var MoonRouter = require("moon-router");
+const Moon = require("moonjs");
+const MoonRouter = require("moon-router");
 require("./components/home.moon")(Moon);
 
 Moon.use(MoonRouter);
 
-var router = new MoonRouter({
+const router = new MoonRouter({
   "default": "/",
   "map": {
     "/": "home"

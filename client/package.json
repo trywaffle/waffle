@@ -3,25 +3,21 @@
   "version": "0.0.0",
   "description": "Waffle Client",
   "scripts": {
-    "watch": "./node_modules/.bin/watchify -vd -e js/scripts.js -o dist/js/build.min.js -p browserify-hmr",
+    "watch": "./node_modules/.bin/watchify -vd -e js/scripts.js -o dist/js/build.min.js -t moonify -p browserify-hmr",
     "serve": "http-server -o -c 1 -a localhost",
     "bundle-css": "node ./build/bundle-css.js",
     "watch-css": "node ./build/watch.js",
     "dev": "cross-env NODE_ENV=development npm-run-all --parallel watch serve watch-css bundle-css",
     "build": "cross-env NODE_ENV=production node build/build.js"
   },
-  "browserify": {
-    "transform": [
-      "moonify"
-    ]
-  },
   "dependencies": {
     "moon-router": "github:KingPixil/moon-router",
-    "moonjs": "KingPixil/moon"
+    "moonjs": "github:KingPixil/moon"
   },
   "devDependencies": {
     "browserify": "14.1.0",
     "browserify-hmr": "0.3.5",
+    "bubleify": "^0.7.0",
     "clean-css": "4.0.8",
     "cross-env": "^4.0.0",
     "html-minifier": "^3.4.1",
@@ -32,5 +28,5 @@
     "uglifyify": "3.0.4",
     "watchify": "3.9.0"
   },
-  "author": "Amrith/Kabir"
+  "author": "Kabir Shah"
 }
