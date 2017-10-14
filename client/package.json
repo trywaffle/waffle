@@ -11,8 +11,8 @@
     "build": "cross-env NODE_ENV=production node build/build.js"
   },
   "dependencies": {
-    "moon-router": "github:KingPixil/moon-router",
-    "moonjs": "github:KingPixil/moon"
+    "moon-router": "^0.1.3",
+    "moonjs": "^0.11.0"
   },
   "devDependencies": {
     "browserify": "14.1.0",
