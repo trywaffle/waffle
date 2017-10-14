@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "Waffle Server",
+  "main": "index.js",
+  "author": "Kabir Shah",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "code": "node src/code.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

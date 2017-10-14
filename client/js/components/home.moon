@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <div class="container main">
-      <router-link to="/" class="nav-item"><h1>Waffle</h1></router-link>
-      <p>the simplest way to leverage your community.</p>
-      <button>create yours</button>
-    </div>
+  <div class="container main">
+    <router-link to="/" class="nav-item"><h1>Waffle</h1></router-link>
+    <p>the simplest way to leverage your community.</p>
+    <button>create yours</button>
   </div>
 </template>
 <style scoped>
