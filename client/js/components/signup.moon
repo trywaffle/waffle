@@ -4,6 +4,7 @@
     <input type="text" m-model="name" placeholder="Name"/>
     <input type="email" m-model="email" placeholder="Email"/>
     <input type="password" m-model="password" placeholder="Password"/>
+    <input type="text" m-model="code" placeholder="Code"/>
     <button>Create Account</button>
   </div>
 </template>
@@ -18,7 +19,8 @@
       return {
         name: "",
         email: "",
-        password: ""
+        password: "",
+        code: ""
       }
     }
   };
