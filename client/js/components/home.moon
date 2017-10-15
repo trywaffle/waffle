@@ -1,8 +1,8 @@
 <template>
   <div class="container main">
-    <router-link to="/" class="nav-item"><h1>Waffle</h1></router-link>
+    <router-link to="/"><h1>Waffle</h1></router-link>
     <p>the simplest way to leverage your community.</p>
-    <button>create yours</button>
+    <router-link to="/signup" class="button">create yours</router-link>
   </div>
 </template>
 <style scoped>
@@ -12,13 +12,12 @@
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    max-width: 600px;
+    max-width: 500px;
     text-align: left;
   }
 
   a {
     text-decoration: none;
-    padding: 0;
   }
 
   a h1 {
@@ -27,10 +26,9 @@
   }
 
   p {
-    font-family: "Quicksand", monospace;
-    font-weight: 400;
-    font-size: 40px;
     margin-top: 0;
+    font-weight: 300;
+    font-size: 40px;
   }
 </style>
 <script>

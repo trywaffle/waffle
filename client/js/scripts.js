@@ -5,13 +5,15 @@
 const Moon = require("moonjs");
 const MoonRouter = require("moon-router");
 require("./components/home.moon")(Moon);
+require("./components/signup.moon")(Moon);
 
 Moon.use(MoonRouter);
 
 const router = new MoonRouter({
   "default": "/",
   "map": {
-    "/": "home"
+    "/": "home",
+    "/signup": "signup"
   }
 });
 
