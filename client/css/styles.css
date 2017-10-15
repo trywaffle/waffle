@@ -25,6 +25,16 @@ button:hover, .button:hover {
   border-color: #19c8a3;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  max-width: 500px;
+  text-align: left;
+}
+
 [m-mask] {
   display: none;
 }

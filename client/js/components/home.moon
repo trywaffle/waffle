@@ -6,16 +6,6 @@
   </div>
 </template>
 <style scoped>
-  .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    max-width: 500px;
-    text-align: left;
-  }
-
   a {
     text-decoration: none;
   }
